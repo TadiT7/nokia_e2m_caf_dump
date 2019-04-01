@@ -1,0 +1,281 @@
+[Package Download Profile]
+PROFILE_VER = 2.0
+MLF_VER = 2.0
+PROJECT = "E2M"
+PLATFORM = "Q8"
+PACKAGE_NUMBER = 44
+INITOPTION = 0x20000
+INITDLTYPE = 0x160
+STORAGE = eMMC
+SECURITY_VER = 0x0004
+
+[Package Info Main]
+FIREHORSE_IMG = "prog_emmc_firehose_8917_ddr.mbn"
+RAWPROGRAM0_XML = "rawprogram0.xml"
+PATCH0_XML = "patch0.xml"
+GPT_MAIN_IMG = "gpt_main0.bin"
+GPT_BACKUP_IMG = "gpt_backup0.bin"
+
+[Package Info 1]
+PACKAGE_NAME = "oem dm-veracity"
+BOOT_NAME = "oem dm-veracity"
+OPTION = 0x1000000000000004
+IMAGE_FILE = ""
+
+[Package Info 2]
+PACKAGE_NAME = "partition"
+BOOT_NAME = "partition"
+OPTION = 0x2
+IMAGE_FILE = "gpt_both0.bin"
+
+[Package Info 3]
+PACKAGE_NAME = "aboot"
+BOOT_NAME = "aboot"
+OPTION = 0x100000
+IMAGE_FILE = "emmc_appsboot_service.mbn"
+
+[Package Info 4]
+PACKAGE_NAME = "abootbak"
+BOOT_NAME = "abootbak"
+OPTION = 0x100000
+IMAGE_FILE = "emmc_appsboot_service.mbn"
+
+[Package Info 5]
+PACKAGE_NAME = "aboot"
+BOOT_NAME = "aboot"
+OPTION = 0x200000
+IMAGE_FILE = "emmc_appsboot_service.zip"
+
+[Package Info 6]
+PACKAGE_NAME = "abootbak"
+BOOT_NAME = "abootbak"
+OPTION = 0x200000
+IMAGE_FILE = "emmc_appsboot_service.zip"
+
+[Package Info 7]
+PACKAGE_NAME = "rpm"
+BOOT_NAME = "rpm"
+OPTION = 0x2
+IMAGE_FILE = "rpm.mbn"
+
+[Package Info 8]
+PACKAGE_NAME = "rpmbak"
+BOOT_NAME = "rpmbak"
+OPTION = 0x2
+IMAGE_FILE = "rpm.mbn"
+
+[Package Info 9]
+PACKAGE_NAME = "sbl1"
+BOOT_NAME = "sbl1"
+OPTION = 0x2
+IMAGE_FILE = "sbl1.mbn"
+
+[Package Info 10]
+PACKAGE_NAME = "sbl1bak"
+BOOT_NAME = "sbl1bak"
+OPTION = 0x2
+IMAGE_FILE = "sbl1.mbn"
+
+[Package Info 11]
+PACKAGE_NAME = "tz"
+BOOT_NAME = "tz"
+OPTION = 0x2
+IMAGE_FILE = "tz.mbn"
+
+[Package Info 12]
+PACKAGE_NAME = "tzbak"
+BOOT_NAME = "tzbak"
+OPTION = 0x2
+IMAGE_FILE = "tz.mbn"
+
+[Package Info 13]
+PACKAGE_NAME = "cmnlib"
+BOOT_NAME = "cmnlib"
+OPTION = 0x2
+IMAGE_FILE = "cmnlib.mbn"
+
+[Package Info 14]
+PACKAGE_NAME = "cmnlibbak"
+BOOT_NAME = "cmnlibbak"
+OPTION = 0x2
+IMAGE_FILE = "cmnlib.mbn"
+
+[Package Info 15]
+PACKAGE_NAME = "cmnlib64"
+BOOT_NAME = "cmnlib64"
+OPTION = 0x2
+IMAGE_FILE = "cmnlib64.mbn"
+
+[Package Info 16]
+PACKAGE_NAME = "cmnlib64bak"
+BOOT_NAME = "cmnlib64bak"
+OPTION = 0x2
+IMAGE_FILE = "cmnlib64.mbn"
+
+[Package Info 17]
+PACKAGE_NAME = "keymaster"
+BOOT_NAME = "keymaster"
+OPTION = 0x2
+IMAGE_FILE = "keymaster64.mbn"
+
+[Package Info 18]
+PACKAGE_NAME = "keymasterbak"
+BOOT_NAME = "keymasterbak"
+OPTION = 0x2
+IMAGE_FILE = "keymaster64.mbn"
+
+[Package Info 19]
+PACKAGE_NAME = "devcfg"
+BOOT_NAME = "devcfg"
+OPTION = 0x2
+IMAGE_FILE = "devcfg.mbn"
+
+[Package Info 20]
+PACKAGE_NAME = "devcfgbak"
+BOOT_NAME = "devcfgbak"
+OPTION = 0x2
+IMAGE_FILE = "devcfg.mbn"
+
+[Package Info 21]
+PACKAGE_NAME = "dsp"
+BOOT_NAME = "dsp"
+OPTION = 0x2
+IMAGE_FILE = "adspso.bin"
+
+[Package Info 22]
+PACKAGE_NAME = "hwcfg"
+BOOT_NAME = "hwcfg"
+OPTION = 0x2
+IMAGE_FILE = "hwcfg.img"
+
+[Package Info 23]
+PACKAGE_NAME = "mdtp"
+BOOT_NAME = "mdtp"
+OPTION = 0x2
+IMAGE_FILE = "mdtp.img"
+
+[Package Info 24]
+PACKAGE_NAME = "reboot-bootloader"
+BOOT_NAME = "reboot-bootloader"
+OPTION = 0x1000000000000000
+IMAGE_FILE = ""
+
+[Package Info 25]
+PACKAGE_NAME = "oem dm-veracity"
+BOOT_NAME = "oem dm-veracity"
+OPTION = 0x1000000000000004
+IMAGE_FILE = ""
+
+[Package Info 26]
+PACKAGE_NAME = "splash"
+BOOT_NAME = "splash"
+OPTION = 0x2
+IMAGE_FILE = "splash.img"
+
+[Package Info 27]
+PACKAGE_NAME = "boot"
+BOOT_NAME = "boot"
+OPTION = 0x2
+IMAGE_FILE = "boot.img"
+
+[Package Info 28]
+PACKAGE_NAME = "system"
+BOOT_NAME = "system"
+OPTION = 0x4
+IMAGE_FILE = ""
+
+[Package Info 29]
+PACKAGE_NAME = "system"
+BOOT_NAME = "system"
+OPTION = 0x1000
+IMAGE_FILE = "system.img.ext4"
+
+[Package Info 30]
+PACKAGE_NAME = "recovery"
+BOOT_NAME = "recovery"
+OPTION = 0x2
+IMAGE_FILE = "recovery.img"
+
+[Package Info 31]
+PACKAGE_NAME = "cache"
+BOOT_NAME = "cache"
+OPTION = 0x4000
+IMAGE_FILE = "cache.img"
+
+[Package Info 32]
+PACKAGE_NAME = "sutinfo"
+BOOT_NAME = "sutinfo"
+OPTION = 0x2
+IMAGE_FILE = "sutinfo.img"
+
+[Package Info 33]
+PACKAGE_NAME = "multi_splash"
+BOOT_NAME = "multi_splash"
+OPTION = 0x2
+IMAGE_FILE = "multi_splash.img"
+
+[Package Info 34]
+PACKAGE_NAME = "modem"
+BOOT_NAME = "modem"
+OPTION = 0x2
+IMAGE_FILE = "NON-HLOS.bin"
+
+[Package Info 35]
+PACKAGE_NAME = "hidden"
+BOOT_NAME = "hidden"
+OPTION = 0x2
+IMAGE_FILE = "hidden.img"
+
+[Package Info 36]
+PACKAGE_NAME = "cda"
+BOOT_NAME = "cda"
+OPTION = 0x2
+IMAGE_FILE = "E2M-00WW-007-cda.img"
+
+[Package Info 37]
+PACKAGE_NAME = "systeminfo"
+BOOT_NAME = "systeminfo"
+OPTION = 0x2
+IMAGE_FILE = "systeminfo.img"
+
+[Package Info 38]
+PACKAGE_NAME = "box"
+BOOT_NAME = "box"
+OPTION = 0x1
+IMAGE_FILE = ""
+
+[Package Info 39]
+PACKAGE_NAME = "abootbak"
+BOOT_NAME = "abootbak"
+OPTION = 0x2
+IMAGE_FILE = "emmc_appsboot.mbn"
+
+[Package Info 40]
+PACKAGE_NAME = "aboot"
+BOOT_NAME = "aboot"
+OPTION = 0x2
+IMAGE_FILE = "emmc_appsboot.mbn"
+
+[Package Info 41]
+PACKAGE_NAME = "vendor"
+BOOT_NAME = "vendor"
+OPTION = 0x4
+IMAGE_FILE = ""
+
+[Package Info 42]
+PACKAGE_NAME = "vendor"
+BOOT_NAME = "vendor"
+OPTION = 0x2
+IMAGE_FILE = "vendor.img.ext4"
+
+[Package Info 43]
+PACKAGE_NAME = "default_nv"
+BOOT_NAME = "default_nv"
+OPTION = 0x2
+IMAGE_FILE = "NV-default.mbn"
+
+[Package Info 44]
+PACKAGE_NAME = "userdata"
+BOOT_NAME = "userdata"
+OPTION = 0x8
+IMAGE_FILE = ""

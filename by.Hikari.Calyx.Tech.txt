@@ -1,0 +1,5 @@
+This firmware is provided by Hikari Calyx Tech, always keep this file when sharing!
+
+Following info are written in Chinese in case you don't know.
+
+本固件由 Hikari Calyx Tech 提供，分享时务必保留此文件！

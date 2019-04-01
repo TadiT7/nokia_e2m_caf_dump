@@ -1,0 +1,14 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=1
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=2018年 01月 23日 星期二 15:01:05 CST
+ro.bootimage.build.date.utc=1516690865
+ro.bootimage.build.fingerprint=qcom/msm8937_32go/msm8937_32go:8.1.0/OPM1.171019.011/59:userdebug/test-keys
+persist.sys.usb.config=adb
